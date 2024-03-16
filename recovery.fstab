@@ -23,7 +23,5 @@
 /system_image emmc	/dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/system        flags=display="System Image";backup=1;flashimg=1 
 /cache		ext4	/dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/cache         flags=display="Cache"
 /data		ext4	/dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/userdata      flags=display="Data";encryptable=/dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/metadata
-/vendor     ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/vendor        flags=display="Vendor";backup=1;wipeingui
-/vendor_image emmc  /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/vendor        flags=display="Vendor Image";backup=1;flashimg=1
 /external_sd vfat	/dev/block/mmcblk1p1	/dev/block/mmcblk1	                        flags=display="External SDcard";storage;removable;backup=0
 /usbotg		vfat	/dev/block/sda1	        /dev/block/sda	                            flags=display="USB OTG";storage;removable;backup=0
